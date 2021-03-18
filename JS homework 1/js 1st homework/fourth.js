@@ -3,12 +3,21 @@
 Для вычисления принимает счет что в каждой последующей единицы измерения хранится 1024 единиц более меньшего измерения.*/
 
 
-"use strict";
 
-const Byte = 1;
+const BYTE = 8;
 const KB = 1024;
 const MB = 1024 * KB;
 const GB = 1024 * MB;
 
-let number = 4 * GB;
-console.log (number);
+let size = 10;
+let unity = "MB";
+
+if ( unity == "BYTE" ) {
+    console.log (size * BYTE);
+} else if ( unity == "KB" ) {
+    console.log (size * KB);
+} else if ( unity == "MB" ) {
+    console.log (size * MB);
+} else if ( unity == "GB" ) {
+    console.log (size * GB);
+}
