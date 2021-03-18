@@ -19,4 +19,5 @@ if ( unity == "BYTE" ) {
 } else if ( unity == "MB" ) {
     console.log (size * MB);
 } else if ( unity == "GB" ) {
-
+    console.log (size * GB);
+};
