@@ -1,10 +1,10 @@
 "use strict";
 
-let x = -23;
+let number = -23;
 
-if ( x > 0) {
+if ( number > 0) {
     console.log ( " plus " );
-} else if ( x < 0 ) {
+} else if ( number < 0 ) {
     console.log ( " minus " );
 } else {
     console.log ( " null " );
