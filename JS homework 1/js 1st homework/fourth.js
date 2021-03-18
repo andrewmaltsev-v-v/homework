@@ -20,4 +20,8 @@ if ( unity == "BYTE" ) {
     console.log (size * MB);
 } else if ( unity == "GB" ) {
     console.log (size * GB);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 93017f1f20807820ae77871b9626e0f48c10edfd

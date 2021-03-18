@@ -1,6 +1,10 @@
 /*Переменная хранит в себе значение от 0 до 9.
 Написать скрипт который будет выводить слово “один”, если переменная хранит значение 1. 
 Выводить слово “два” - если переменная хранит значение 2, и т.д. для всех цифр от 0 до 9. Реализовать двумя способами.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 93017f1f20807820ae77871b9626e0f48c10edfd
 2nd*/
 
 "use strict";
@@ -17,4 +21,9 @@ let showNum = ( number == 0 ) ? console.log ('zero') :
              ( number == 7 ) ? console.log ('seven') :
              ( number == 8 ) ? console.log ('eight') :
              ( number == 9 ) ? console.log ('nine') :
+<<<<<<< HEAD
              console.log ( " another number ");
+=======
+             console.log ( " another number ");
+
+>>>>>>> 93017f1f20807820ae77871b9626e0f48c10edfd
