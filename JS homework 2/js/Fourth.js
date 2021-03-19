@@ -6,7 +6,7 @@ let sumNum = 0;
 for ( i = 1; i <= num; i++) {
 
     if ( i % 2 == 0) {
-        sumX += i;
+        sumNum += i;
     }
 }
 console.log (sumNum);
