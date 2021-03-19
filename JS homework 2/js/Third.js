@@ -2,10 +2,16 @@
 
 
 let num = 14;
+let arrNum = [];
+let divNum = 1;
 
-for ( i = 1; i <= num; i++ ) {
+for (let i = 1; i <= num; i++ ) {
 
     if ( num % i == 0) {
-        console.log (i);
+        arrNum.push (i);
     }
+}
+
+for (let i = 0; i <= divNum; i++) {
+    console.log (arrNum[i]);
 }
