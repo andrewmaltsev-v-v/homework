@@ -17,9 +17,7 @@ let showNum = ( number == 0 ) ? console.log ('zero') :
              ( number == 7 ) ? console.log ('seven') :
              ( number == 8 ) ? console.log ('eight') :
              ( number == 9 ) ? console.log ('nine') :
-<<<<<<< HEAD
-             console.log ( " another number ");
-=======
              console.log ( " another number ");
 
->>>>>>> 93017f1f20807820ae77871b9626e0f48c10edfd
+       
+
