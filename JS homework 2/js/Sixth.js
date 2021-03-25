@@ -15,7 +15,7 @@ if ( x > y ) {
 for ( let i = 1; i < max; i++ ) {
     
     if ( x % i == 0 && y % i == 0 ) {
-        arr.push(i);
+        arrDiv.push(i);
     }
 }
 
